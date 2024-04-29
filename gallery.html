@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKM Gallery</title>
+    <meta name="description" content="Explore the world of bricks with our comprehensive guide, covering types, uses, benefits, and sustainability in construction projects.">
+    <meta name="keywords" content="bricks, types of bricks, uses of bricks, benefits of bricks, sustainable construction, handmade bricks, wirecut bricks, fly ash bricks">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#9a031e">
+    <meta name="googlebot" content="index, follow">
+    <meta property="og:title" content="Ultimate Guide to Bricks: Types, Uses, and Benefits for Construction">
+    <meta property="og:description" content="Explore the world of bricks with our comprehensive guide, covering types, uses, benefits, and sustainability in construction projects.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourwebsite.com/ultimate-guide-to-bricks">
+    <meta property="og:image" content="https://www.yourwebsite.com/images/bricks-guide.jpg">
+    <meta property="og:image:alt" content="Bricks Guide Image">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ultimate Guide to Bricks: Types, Uses, and Benefits for Construction">
+    <meta name="twitter:description" content="Explore the world of bricks with our comprehensive guide, covering types, uses, benefits, and sustainability in construction projects.">
+    <meta name="twitter:image" content="https://www.yourwebsite.com/images/bricks-guide.jpg">
+    <link rel="canonical" href="https://www.yourwebsite.com/ultimate-guide-to-bricks">
+   <!-- Link to your CSS file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+           @import url('https://fonts.googleapis.com/css2?family=Anton&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+      }
+
+        /* Your custom CSS styles here */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .navbar {
+            background-color: #9a031e;
+        }
+
+        .container-fluid a {
+            color: white;
+            font-size: 22px;
+            font-weight: 500;
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .gallery-item:hover .overlay {
+            opacity: 1;
+        }
+
+        .overlay h3,
+        .overlay p {
+            margin: 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #9a031e;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo4.webp" alt="" height="35px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="products.html">Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="content.html">Tips From Us</a>
+                      </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/entrance 1-min.jpg" loading="lazy" alt="Image 1">
+                <div class="overlay">
+                    <h3>Main Entrance</h3>
+                    <p> SKM Bricks</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/entrance 2-min.jpg" alt="Image 1" loading="lazy">
+                <div class="overlay">
+                    <h3>Main Entrance</h3>
+                    <p> SKM Bricks</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/storage of soil-min.jpg" alt="Image 1" loading="lazy">
+                <div class="overlay">
+                    <h3>Storage of Soil</h3>
+                    <p> SKM Bricks</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/manifacturing-min.jpg" alt="Image 1" loading="lazy">
+                <div class="overlay">
+                    <h3>Manifacture</h3>
+                    <p>Bricks</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/warehouse1-min.jpg" alt="Image 1" loading="lazy">
+                <div class="overlay">
+                    <h3>warehouse</h3>
+                    <p>To Store the Finished Bricks</p>
+                </div>
+            </div>
+
+        
+            <div class="gallery-item">
+                <img src="images/warehouse2-min.jpg" alt="Image 1" loading="lazy">
+                <div class="overlay">
+                    <h3>warehouse II</h3>
+                    <p>To Store the Finished Bricks</p>
+                </div>
+            </div>
+        
+            <div class="gallery-item">
+                <img src="images/WhatsApp Image 2024-04-12 at 20.48.27_53c26a5e-min.jpg" alt="Image 1" loading="lazy">
+                <div class="overlay">
+                    <h3>Overview</h3>
+                    <p>SKM Bricks</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/warehouse3-min.jpg" alt="Image 1" loading="lazy">
+                <div class="overlay">
+                    <h3>warehouse III</h3>
+                    <p>To Store the Finished Bricks</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/storage-min.jpg" alt="Image 1" loading="lazy">
+                <div class="overlay">
+                    <h3>Storing</h3>
+                    <p> Bricks in warehouse</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/WhatsApp Image 2024-04-12 at 20.48.31_e76f5f09-min.jpg" alt="Image 1" loading="lazy">
+                <div class="overlay">
+                    <h3>Natural Drying</h3>
+                    <p>Bricks are drying in the sunlight.</p>
+                </div>
+            </div>
+
+            
+
+            <div class="gallery-item">
+                <img src="images/finished product-min.jpg" alt="Image 1" loading="lazy">
+                <div class="overlay">
+                    <h3>Finshed Bricks</h3>
+                    <p>SKM Bricks</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/fly ash lot-min.jpg" alt="Image 1" loading="lazy">
+                <div class="overlay">
+                    <h3>Fly Ash Block</h3>
+                    <p>SKM Bricks</p>
+                </div>
+            </div>
+
+           
+            
+            <!-- Add more gallery items here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 SKM Bricks. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
